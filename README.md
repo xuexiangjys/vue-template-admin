@@ -22,6 +22,14 @@ npm run dev
 
 ## 项目修改
 
-1.全局修改“XX后台管理系统”
+* 1.全局修改“XX后台管理系统”
 
-2.
+* 2.在src/views/下添加页面
+
+* 3.修改src/router/index.js
+
+* 4.修改src/api/的网络请求api
+
+* 5.修改mock/下得mock服务
+
+* 6.修改.env.development和文件.env.production文件的VUE_APP_BASE_URL参数
