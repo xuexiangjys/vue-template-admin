@@ -33,3 +33,13 @@ npm run dev
 * 5.修改mock/下得mock服务
 
 * 6.修改.env.development和文件.env.production文件的VUE_APP_BASE_URL参数
+
+## 项目打包发布
+
+1.修改.env.production文件的VUE_APP_BASE_URL参数为真实的生产服务器地址
+
+2.执行打包命令，生成dist目录
+
+```
+npm run build:prod
+```
